@@ -55,6 +55,6 @@ describe("factorial", () => {
   });
 
   it("should return undefined if given negative", () => {
-    expect(factorial(-5)).toBeUndefined;
+    expect(factorial(-5)).toBeUndefined();
   });
 });
